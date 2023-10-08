@@ -1,53 +1,304 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Resume</title>
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+    
 </head>
+<style>
+    * {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+
+    .con {
+        width: 100%;
+        height: 35px;
+        background-color: navy;
+    }
+
+    .container {
+        display: flex;
+        height: 90px;
+        align-items: center;
+        margin-top: 10px;
+        border-bottom: 1px solid #d3d0d0;
+    }
+
+    .yummy {
+        width: 20%;
+        padding-left: 100px;
+    }
+
+    .nav {
+        width: 60%;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-evenly;
+        list-style: none;
+        font-weight: unset;
+        font-size: 23px;
+        text-transform: capitalize;
+    }
+
+    ul li a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .book {
+        width: 140px;
+        height: 45px;
+        background-color: rgb(232, 0, 0);
+        color: white;
+        line-height: 45px;
+        border-radius: 25px;
+        padding-left: 33px;
+        margin-left: 47px;
+    }
+
+    .container-2 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 720px;
+        background-color: #d3d0d0;
+    }
+
+    img.pic {
+        width: 600px;
+        height: 600px;
+        margin-top: 15px;
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 75px;
+        font-family: 'Amatic SC', sans-serif;
+        font-weight: revert;
+        letter-spacing: 4px;
+    }
+
+    .sed {
+        width: 474px;
+        margin-top: 15px;
+        font-size: 22px;
+    }
+
+    .bookk {
+        width: 241px;
+        height: 45px;
+        background-color: rgb(232, 0, 0);
+        color: white;
+        line-height: 45px;
+        border-radius: 25px;
+        padding-left: 56px;
+        margin-left: 10px;
+        font-size: 22px;
+    }
+
+    .watch {
+        width: 251px;
+        height: 45px;
+        display: inline-flex;
+        justify-content: flex-start;
+        color: var(--color-primary);
+        line-height: 45px;
+        border-radius: 25px;
+        margin-left: 10px;
+        font-size: 32px;
+        transition: 0.3s;
+    }
+
+    .bok {
+        display: flex;
+        margin-top: 33px;
+        justify-content: space-between;
+    }
+
+    .container-3 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .sub-con {
+        width: 100%;
+        height: 150px;
+        text-align: center;
+    }
+
+    .about {
+        width: 100%;
+        margin-top: 30px;
+        font-size: 15px;
+        font-family: sans-serif;
+    }
+
+    .learn {
+        width: 100%;
+        font-size: 75px;
+        font-family: 'Amatic SC', sans-serif;
+    }
+
+    .sub-con-2 {
+        width: 100%;
+        height: 1000px;
+        display: flex;
+        padding: 10px;
+        padding-left: 140px;
+    padding-right: 30px;
+    padding-bottom: 70px;
+    }
+
+    .left {
+        width: 50%;
+        background-color: black;
+        background-image: url(./pwdimage/christian-mackie-cc0Gg3BegjE-unsplash.jpg);
+        padding-left: 80px;
+        background-repeat: round;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .right {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        padding-left: 30px;
+    }
+
+    .up {
+        height: 50%;
+        width: 100%;
+        font-style: italic;
+        font-size: 23px;
+        padding-left: 38px;
+    }
+
+    .down {
+        width: 100%;
+        height: 50%;
+        background-color: white;
+    }
+
+    img.pht {
+        width: inherit;
+        height: -webkit-fill-available;
+        padding-right: 26px;
+        margin-top: 35px;
+    }
+    .phn {
+        width: 450px;
+        background-color: white;
+        text-align: center;
+        height: 147px;
+        clear: both;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: -280px;
+        margin-right: 70px;
+    }
+    .ul-2{
+        font-size: 1.2rem;
+        padding: 20px;
+        padding-left: 57px;
+        font-style: normal;
+        display: inline-block;
+    }
+    .ul-2 li{
+        margin-top:0px;
+    }
+    span img{
+        width: 44px;
+        margin-left:-50px;
+    }
+</style>
+
 <body>
-    <h1>I LOVE YOU MY Sweetheart (Tatti)</h1>
-    <h2></h2>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Sachin-Tendulkar_%28cropped%29.jpg/220px-Sachin-Tendulkar_%28cropped%29.jpg" alt="Sachin Tendulkar">
-    <h2>Summary</h2>
-    <p>My name is Sachin Tendulkar .I a a crickter.I play amny matches for india</p>
-    <hr>
-    <h2>Education</h2>
-    <ul>
-        <li>12th std from Shardashram Vidyamandir before making his India debut. Sourav Ganguly - He completed his graduatio</li>
-    </ul>
-    <h2>Work Experience</h2>
-    <ul>
-        <h3><li>Cricket Jorney</li></h3>
-        <p>My achevments</p>
-        <br>
-      <li>  1. Made international debut at the age of 16 against Pakistan.</li>
-      <li>  2. Scored his first Test century at the age of 17.</li>
-      <li>  3. Achieved his first ODI century against Australia.</li>
-      <li>  4. Holds the record for the most international runs.</li>
-      <li>  5. Holds the record for the most centuries in international cricket.</li>
-      <br>
-      <li><h2>Administrative Assistant - XYZ Corp.</h2></li>
-      <P>June 2018 - Present</P>
-      <li>Assisted with scheduling appointments and meetings</li>
-      <li>Managed incoming and outgoing mail and correspondence</li>
-      <li>Prepared reports and presentations using Microsoft Office Suite</li>
-    </ul>
-        <hr>
-    <h2>Skill</h2>
-    <ul>
-        <li>Customer service: ⭐️⭐️⭐️⭐️⭐️</li>
-       <li>Microsoft Office Suite: </li>
-        <li>Organizational skills: ⭐️⭐️⭐️⭐️</li>
-    </ul>
-    <hr>
-    <h2>Other</h2>
-    <ul>
-    <li><a href="./hobbies.html">Hobbies</a></li>
-    <li><a href="./contact.html"> contact us</a></li>
-    </ul>
-    <footer>
-        <p>© Dalgau copywrite</p>
-    </footer>
+    <!-- first line -->
+    <div class="con"></div>
+
+    <!-- header/navbar -->
+    <div class="container">
+        <div class="yummy">
+            <h1>Yummy<span>.</span></h1>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Event</a></li>
+                <li><a href="#">Chef</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">dropdown</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="book"><a href="#" style="color: white; text-decoration:none">Book Table</a></div>
+    </div>
+    <div class="container-2">
+        <div class="info">
+            <div class="name">
+                <h2>Enjoy Your Healthy <br> Delecious food</h2>
+            </div>
+            <div class="sed">Sed autem laudantium dolores. Voluptatem itaque ea consequatur eveniet. Eum quas beatae
+                cumque eum quaerat.</div>
+            <div class="bok">
+                <div class="bookk"><a href="#"></a>Book a Table</div>
+                <div class="watch"><img class="play" src="./pwdimage/playbutton-removebg-preview.png" alt=""><a href="#"
+                        style="color:black; text-decoration:none;"> Watch video</a></div>
+            </div>
+        </div>
+        <div class="image">
+            <img class="pic" src="./pwdimage/dish2.png" alt="">
+        </div>
+    </div>
+    <div class="container-3">
+        <div class="sub-con">
+            <div class="about">ABOUT US</div>
+            <div class="learn">
+                <span class="learn">Learn More <span>About Us</span></span>
+            </div>
+        </div>
+        <div class="sub-con-2">
+            <div class="left">
+                <div class="phn">
+                    <h3>Book a Table</h3>
+                    <span class="phon">!@#$%^&*</span>
+                </div>
+            </div>
+            <div class="right">
+                <div class="up">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <ul class="ul-2">
+                        <li><span><img src="./pwdimage/check-removebg-preview.png" alt=""></span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                        <li><span><img src="./pwdimage/check-removebg-preview.png" alt=""></span>Duis aute irure dolor in reprehenderit in voluptate velit</li>
+                        <li><span><img src="./pwdimage/check-removebg-preview.png" alt=""></span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+                    </ul>
+                    <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
+                </div>
+                <div class="down">
+                    <img class="pht" src="./pwdimage/about-2 (1).jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
